@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Stick Man</title>
+    <link rel="stylesheet" href="shootingStickMan.css">
+</head>
+<body>
+    <div class="imgContainer">
+        <div class="container-img-bullet-blood">
+            <img class="greenStickMan" src="/img/stickMan.svg" alt="" width="150px" height="150px">
+            <div class="bulletContainer">
+                <div class="greenBulletInLoad"></div>
+                <div class="greenBulletInLoad"></div>
+                <div class="greenBulletInLoad"></div>
+                <div class="greenBulletInLoad"></div>
+                <div class="greenBulletInLoad"></div>
+            </div>
+            <div class="bloodBar">
+                <div class="greenBlood"></div>
+            </div>
+        </div>
+        <div class="container-img-bullet-blood">
+            <img class="redStickMan" src="/img/stickMan.svg" alt="" width="150px" height="150px">
+            <div class="bulletContainer">
+                <div class="redBulletInLoad"></div>
+                <div class="redBulletInLoad"></div>
+                <div class="redBulletInLoad"></div>
+                <div class="redBulletInLoad"></div>
+                <div class="redBulletInLoad"></div>
+            </div>
+            <div class="bloodBar">
+                <div class="redBlood"></div>
+            </div>
+        </div>    
+        
+        <div class="bulletRed"></div>
+        <div class="bulletGreen"></div>
+        
+    </div>
+    
+    <div class="diceContainer">
+        <div id="diceValue">12</div>
+        <button id="rollBtn">Roll the dice</button>
+    </div>
+
+    <script src="shootingStickMan.js"></script>
+</body>
+</html>
